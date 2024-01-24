@@ -1,0 +1,238 @@
+.principale {
+    width : 1200px;
+    margin: 0 auto;
+    display: flex; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+.banner {
+    width: 70%;
+}
+.banner p {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    text-align: left;
+    line-height: 30px;
+}
+.banner ul {
+    line-height: 40px;
+}
+.banner li {
+    font-size: 25px;
+    margin-left: 4%;
+}
+.banner img {
+    width: 100%;
+}
+aside {
+    margin-left: 2%;
+    width:30%;
+    border-left: 2px solid black;
+    
+}
+figcaption {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 2%;
+}
+aside img {
+    margin-top: 10%;
+
+    width: 140%;
+}
+aside figure {
+    width: 120%;
+}
+h1 {
+    font-size: 45px;
+    color: #136731;
+    font-weight: 400;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.actu {
+    margin-left: 4%;
+    
+}
+h3 {
+    font-size: 28px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+hr {
+    color: #999374;
+}
+.contact h5 {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    display: inline; 
+    padding:10px;
+    box-sizing:border-box;
+    background: #bebed2;
+    border:0;
+    border-bottom:2px solid #bebed2 
+}
+button {
+    background-color: #136731;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 15%;
+    box-sizing: border-box;
+    border-bottom:2px solid #bebed2;
+    border-top: 2px solid #bebed2 ;
+    
+
+}
+
+form {
+    margin-top: 5%;
+}
+form label {
+    font-weight: 400;
+    font-size: 22px;
+    color: #bebed2;
+}
+
+.galerie {
+    width: 800px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* padding: 1em 0; */
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
+}
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.container-img a {
+    width: 48%;
+}
+.galerie figure img {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 311px) {
+    .principale {
+        width : 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 5%;
+    margin-bottom: 5%;
+       
+    }
+    .banner {
+        width : 300px;
+        margin: 0 auto;
+        display: flex;   
+        flex-direction: column; 
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width : 260px;
+        margin-top: 10%;
+    }
+    .galerie {
+    width: 300px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+    }
+    .container-img {
+        flex-direction: column;
+    }
+    .container-img a {
+        width: 100%;
+    }
+    aside img {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 1190px) {
+    
+    .principale {
+        width : 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: row;
+       
+    }
+    .banner {
+        width : 1200px;
+        margin: 0 auto;
+    }
+    aside {
+        display: flex;
+        margin-left: 2%;
+    width:30%;
+    border-left: 2px solid black;
+    margin-top: -1%;
+    }
+    .galerie {
+        width: 800px;
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      box-sizing: border-box;
+      justify-content: space-between;
+    
+    
+    }
+    
+    .actu h2 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .container-img {
+       
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2%;
+        flex-direction: row;
+    }
+    
+     .container-img a {
+        width: 48%;
+    }
+    
+    .galerie figure img {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+}

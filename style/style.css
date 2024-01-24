@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width : 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.parallax-effect {
+    background-image: url("../img/tree.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  header {
+    background-image: url('../img/background-header.png');
+    background-position: center;
+    background-size: cover;
+    /* outline: 10px solid red; */
+
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  header nav {
+    display: flex;
+    background-color: #136731;
+    padding: 15px;
+
+  }
+  header nav .container {
+    justify-content: space-between;
+  }
+  header nav ul {
+    display: flex;
+    
+  }
+  header nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  header nav ul li a  {
+    font-size: 25px;
+    
+  }
+  header nav ul li a:hover  {
+    color: #709700;
+    
+  }
+  svg:hover {
+    transition: transform 0.5s;
+   transform: scale(1.2); 
+  }
+
+  h2 {
+    color: #136731;
+    font-weight: 400;
+  }
+  a {
+    color: #136731;
+  }
+  header img {
+    margin-top: 50px;
+    max-width: 210px;
+    max-height: 210px;
+    margin-bottom: 60%;
+    margin-left: 220%;
+  }
+  
+  .sectionSvg {
+    width : 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 5%;
+  }
+  .sectionSvg figcaption {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 2%;
+  }
+  .presentation h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .presentation p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+  }
+  footer {
+    background-color: #136731;
+    font-size: 23px;
+    color: white;
+  }
+  footer h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding: 5%;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+    
+  }
+  .footer-menu {
+    margin-bottom: 40px;
+  }
+  .sectionSvg figure {
+    margin-top: 30%;
+    margin-bottom: 20%;
+  }
+
+  @media screen and (min-width : 311px) {
+    /* header {
+        width: 100%;
+    } */
+    .container {
+        width : 218px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    footer .container {
+        
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    header nav {
+        justify-content: space-between;
+        flex-direction: column;
+    
+      }
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+  }
+  header img {
+    max-width: 90px;
+    max-height: 90px;
+    margin-bottom: 60%;
+    margin-left: 60%;
+  }
+    .sectionSvg .container {
+       
+    justify-content: space-between;
+        flex-direction: column;
+    }
+    .sectionSvg {
+        width : 143px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .parallax-effect {
+        background-image: url("../img/tree.jpg");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .container figure {
+        margin-top: 10%;
+      }
+      .sectionSvg figure {
+        margin-top: 40%;
+        margin-bottom: 20%;
+      }
+      .presentation h2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 30px;
+        text-align: center;
+      }
+      .presentation p {
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+      }
+  } 
+
+  @media screen and (min-width : 760px) {
+    
+    .container {
+        width : 500px;
+        margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+   
+    footer .container {
+        
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    header nav {
+        justify-content: space-between;
+        flex-direction: column;
+    
+      }
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+
+  }
+  header img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 60%;
+    margin-left: 60%;
+  }
+    .sectionSvg .container {
+       width: auto;
+       margin: 0;
+    justify-content: space-between;
+        flex-direction: row;
+    }
+    .sectionSvg {
+        width : 728px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .parallax-effect {
+        background-image: url("../img/tree.jpg");
+        min-height: 220px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .container figure {
+        margin-top: 10%;
+      }
+      .sectionSvg figure {
+        margin-top: 40%;
+        margin-bottom: 20%;
+        margin-right: 15%;
+      }
+  } 
+
+
+  @media screen and (min-width:1190px) {
+    .container {
+        width : 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .parallax-effect {
+        background-image: url("../img/tree.jpg");
+        min-height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+    
+      header {
+        width: 100%;
+        background-image: url('../img/background-header.png');
+        background-position: center;
+        background-size: cover;
+        /* outline: 10px solid red; */
+    
+      }
+      header a {
+        text-decoration: none;
+        color: white;
+      }
+      header nav {
+        display: flex;
+        background-color: #136731;
+        padding: 15px;
+    
+      }
+      header nav .container {
+        justify-content: space-between;
+      }
+      header nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+  }
+      header nav ul li {
+        list-style: none;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      header nav ul li a  {
+        font-size: 25px;
+        
+      }
+      svg:hover {
+        transition: transform 0.5s;
+       transform: scale(1.2); 
+      }
+    
+      h2 {
+        color: #136731;
+        font-weight: 400;
+      }
+      a {
+        color: #136731;
+      }
+      header img {
+        margin-top: 50px;
+        max-width: 210px;
+        max-height: 210px;
+        margin-bottom: 60%;
+        margin-left: 220%;
+      }
+      .sectionSvg {
+        width : 690px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 5%;
+      }
+      .sectionSvg figcaption {
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 2%;
+      }
+      .sectionSvg .container {
+       
+        justify-content: space-between;
+            flex-direction: row;
+        }
+      .presentation h2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 50px;
+        text-align: center;
+      }
+      .presentation p {
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+      }
+      footer {
+        background-color: #136731;
+        font-size: 23px;
+        color: white;
+      }
+      footer h2 {
+        color: white;
+        font-size: 25px;
+        margin-top: 8%;
+        margin-bottom: 10%;
+        padding: 5%;
+      }
+      footer ul {
+        list-style: none;
+      }
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+        
+      }
+      .footer-menu {
+        margin-bottom: 40px;
+      }
+      footer .container {
+        
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .sectionSvg figure {
+        margin-top: 20%;
+        margin-bottom: 20%;
+      }
+  }
